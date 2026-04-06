@@ -35,7 +35,7 @@ export const projects: Project[] = [
     title: "Skillbridge",
     description:
       "A full-featured e-commerce platform like Daraz and Shopify with user authentication, cart management, and payment integration.",
-    image: "/projects/swiftshop.png",
+    image: "https://i.ibb.co.com/Zpx6Bz0D/Screenshot-2026-04-07-015856.png",
     tags: [
       "Next.js",
       "Node.js",
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     title: "EcoSpark",
     description:
       "EcoSpark Hub is a full-stack online community portal where members can share, discover, and vote on sustainability-driven ideas from reducing plastic waste to launching local solar projects. Built with modern web technologies to deliver a clean, responsive, and engaging user experience.",
-    image: "/projects/eco-spark.png",
+    image: "https://i.ibb.co.com/V0nVs6Yn/Screenshot-2026-04-07-015924.png",
     tags: [
       "Full Stack",
       "Next.js",

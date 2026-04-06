@@ -72,19 +72,16 @@ src/data/portfolio.ts
 Edit that file — everything else updates automatically.
 
 ### Add your profile photo
+
 Replace `public/images/imran.png` with your own photo.
 
 ### Add project screenshots
+
 Add images to `public/projects/`:
+
 - `public/projects/swiftshop.png`
 - `public/projects/skillsphere.png`
 - `public/projects/devspotlight.png`
-
-### Configure contact form
-In `ContactSection.tsx`, replace the fake `setTimeout` with your email service:
-- [EmailJS](https://emailjs.com) — easiest, no backend needed
-- [Resend](https://resend.com) — via Next.js API route
-- [Formspree](https://formspree.io) — simple form endpoint
 
 ### Deploy to Vercel
 
@@ -97,12 +94,12 @@ vercel
 
 Colors are defined in `tailwind.config.ts`:
 
-| Token | Value | Usage |
-|-------|-------|-------|
-| `brand.pink` | `#FF2D78` | Primary accent |
-| `dark.950` | `#050508` | Page background |
-| `dark.900` | `#0A0A0F` | Navbar bg |
-| `dark.800` | `#111118` | Cards |
+| Token        | Value     | Usage           |
+| ------------ | --------- | --------------- |
+| `brand.pink` | `#FF2D78` | Primary accent  |
+| `dark.950`   | `#050508` | Page background |
+| `dark.900`   | `#0A0A0F` | Navbar bg       |
+| `dark.800`   | `#111118` | Cards           |
 
 ## License
 

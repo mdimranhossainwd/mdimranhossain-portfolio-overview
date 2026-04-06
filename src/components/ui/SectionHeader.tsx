@@ -4,8 +4,8 @@
 
 "use client";
 
-import { motion } from "framer-motion";
 import { itemVariants } from "@/lib/utils";
+import { motion } from "framer-motion";
 
 interface SectionHeaderProps {
   badge: string;
@@ -34,19 +34,20 @@ export default function SectionHeader({
 
       <motion.h2
         variants={itemVariants}
-        className="text-3xl md:text-4xl font-semibold text-white leading-tight mb-4"
+        className="text-4xl md:text-5xl font-bold text-white leading-tight mb-4"
       >
         {title}{" "}
-        {highlight && (
-          <span className="gradient-text">{highlight}</span>
-        )}
+        {highlight && <span className="gradient-text">{highlight}</span>}
       </motion.h2>
 
       {subtitle && (
         <motion.p
           variants={itemVariants}
           className="text-muted-light text-base leading-relaxed max-w-xl"
-          style={{ marginLeft: center ? "auto" : undefined, marginRight: center ? "auto" : undefined }}
+          style={{
+            marginLeft: center ? "auto" : undefined,
+            marginRight: center ? "auto" : undefined,
+          }}
         >
           {subtitle}
         </motion.p>
