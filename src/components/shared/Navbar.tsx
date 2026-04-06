@@ -55,7 +55,7 @@ export default function Navbar() {
           {/* Logo */}
           <button
             onClick={() => handleNav("#home")}
-            className="font-mono text-md font-medium text-white hover:text-[#FF2D78] transition-colors"
+            className="font-mono text-lg font-medium text-white hover:text-[#FF2D78] transition-colors"
           >
             <span className="text-[#FF2D78]">&lt;</span>
             {personal.shortName}

@@ -9,11 +9,10 @@ export const personal: PersonalInfo = {
   name: "Md Imran Hossain",
   shortName: "Md. Imran",
   roles: ["Front-end Developer", "Full Stack Developer", "Web Developer"],
-  bio: "Dedicated web developer specializing in backend technologies. Passionate MERN stack developer skilled in MongoDB, Express, React, and Node.js. Focused on building scalable web apps with clean, reusable code.",
+  bio: "Full-Stack Web Developer specializing in robust backend architectures. Focused on building scalable, high-performance web applications with clean and maintainable code.",
   aboutLong:
     "I am Md. Imran Hossain, a dedicated and enthusiastic Full Stack Developer with over a year of hands-on experience in modern web development. I continuously strive to improve my skills by learning and adopting the latest technologies and industry best practices. I specialize in building user-friendly, responsive, and high-quality web applications, with strong expertise in converting PSD and Figma designs into pixel-perfect, production-ready interfaces. On the frontend, I am proficient in JavaScript (ES6), TypeScript, React.js, Redux, and RTK Query. I focus on writing clean, maintainable code and creating smooth user experiences. On the backend, I work confidently with Node.js and Express.js, and I have solid experience in database management using MongoDB (Mongoose), PostgreSQL, and MySQL. I am also familiar with modern ORM tools like Prisma, which helps me build scalable and efficient backend systems. I have a strong understanding of REST API design and implementation, and I always aim to follow clean architecture, modular coding structure, and industry standards. I am comfortable working under pressure and meeting deadlines, and I am highly motivated to continuously grow as a developer by exploring new tools, technologies, and best practices in full stack development.",
-  avatar:
-    "https://i.ibb.co.com/N63VVzM8/Gemini-Generated-Image-korbnxkorbnxkorb-removebg-preview.png",
+  avatar: "https://i.ibb.co.com/LXLQ3RB9/Md-Imran-Hossain-Profile-Img.jpg",
   resumeUrl:
     "https://mdimranhossains-wd-portfolios.vercel.app/assets/Md_Imran_Hossain_mern_resume.pdf",
   yearsExp: 1,
@@ -84,9 +83,9 @@ export const projects: Project[] = [
     image: "https://i.ibb.co.com/fYSp4GPH/Skyline-Home-banner.jpg",
     tags: ["MERN", "React", "MongoDB", "Tailwind", "Express", "Daisy UI"],
     liveUrl: "https://devspotlight.vercel.app",
-    clientCode: "https://github.com/mdimranhossain/devspotlight-client",
-    serverCode: "https://github.com/mdimranhossain/devspotlight-server",
-    year: "2026",
+    clientCode: "https://github.com/mdimranhossainwd/skyline-vista-client-side",
+    serverCode: "https://github.com/mdimranhossainwd/skyline-vista-server-side",
+    year: "2025",
   },
 ];
 

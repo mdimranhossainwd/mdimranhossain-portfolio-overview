@@ -28,7 +28,7 @@ export default function EducationSection() {
         //   initial="hidden"
         //   animate={inView ? "visible" : "hidden"}
         >
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="lg:flex gap-16 items-center">
             {/* Text side */}
             <div>
               <motion.p
@@ -45,7 +45,7 @@ export default function EducationSection() {
               </motion.p>
             </div>
             <motion.div className="relative">
-              <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-[360px] lg:h-[360px]  overflow-hidden]">
+              <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-[360px] lg:h-[360px] mx-auto md:mx-0 overflow-hidden]">
                 <Image
                   src="https://i.ibb.co.com/QjczW4vb/145855843-8e8d722b-6a0a-4da0-9ca2-3aba986f49e9-removebg-preview.png"
                   alt="Education Image"
