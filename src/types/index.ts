@@ -1,7 +1,3 @@
-// ─────────────────────────────────────────────
-// types/index.ts — Global TypeScript types
-// ─────────────────────────────────────────────
-
 export interface Project {
   id: string;
   title: string;

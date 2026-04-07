@@ -1,7 +1,3 @@
-// ─────────────────────────────────────────────
-// components/shared/Footer.tsx
-// ─────────────────────────────────────────────
-
 "use client";
 
 import { contactInfo, navItems, personal } from "@/data/portfolio";

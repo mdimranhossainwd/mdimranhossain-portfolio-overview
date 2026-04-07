@@ -1,19 +1,9 @@
-// ─────────────────────────────────────────────
-// components/sections/HeroSection.tsx
-// ─────────────────────────────────────────────
-
 "use client";
 
 import { personal } from "@/data/portfolio";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-
-// const iconMap: Record<string, React.ReactNode> = {
-//   github: <Github size={16} />,
-//   linkedin: <Linkedin size={16} />,
-//   facebook: <Facebook size={16} />,
-// };
 
 export default function HeroSection() {
   // Build typewriter sequence from roles array

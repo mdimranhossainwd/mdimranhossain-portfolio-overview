@@ -1,7 +1,3 @@
-// ─────────────────────────────────────────────
-// components/sections/ContactSection.tsx
-// ─────────────────────────────────────────────
-
 "use client";
 
 import SectionHeader from "@/components/ui/SectionHeader";
@@ -50,18 +46,43 @@ export default function ContactSection() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
     if (!form.name || !form.email || !form.message) {
       toast.error("Please fill in all required fields.");
       return;
     }
+
     setSending(true);
-    // ── Replace with your email service (EmailJS / Resend / Formspree) ──
-    await new Promise((r) => setTimeout(r, 1500));
-    setSending(false);
-    toast.success("Message sent! I'll get back to you soon.");
-    setForm({ name: "", phone: "", email: "", message: "" });
+
+    try {
+      const formData = new FormData(e.target as HTMLFormElement);
+      formData.append("access_key", "db74eb4b-5980-4227-955b-5b81a7a627dd");
+
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
+      }).then((res) => res.json());
+
+      if (res.success) {
+        toast.success("Message sent! I'll get back to you soon.");
+        setForm({ name: "", phone: "", email: "", message: "" });
+      } else {
+        throw new Error(res.message || "Something went wrong");
+      }
+    } catch (error) {
+      toast.error("Failed to send message. Please try again later.");
+    } finally {
+      setSending(false);
+    }
   };
 
   return (

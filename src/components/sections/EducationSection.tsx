@@ -4,12 +4,6 @@ import SectionHeader from "@/components/ui/SectionHeader";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const educationDetails = [
-  { label: "Qualification", value: "Higher Secondary Certificate (HSC)" },
-  { label: "Completion", value: "2025" },
-  { label: "Group", value: "Arts (Humanities)" },
-];
-
 export default function EducationSection() {
   return (
     <section id="education" className="section-padding relative z-10">
@@ -22,12 +16,7 @@ export default function EducationSection() {
       />
 
       <div className="max-w-6xl mx-auto px-6">
-        <motion.div
-        //   ref={ref}
-        //   variants={containerVariants}
-        //   initial="hidden"
-        //   animate={inView ? "visible" : "hidden"}
-        >
+        <motion.div>
           <div className="lg:flex gap-16 items-center">
             {/* Text side */}
             <div>

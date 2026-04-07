@@ -1,7 +1,3 @@
-// ─────────────────────────────────────────────
-// components/sections/ProjectsSection.tsx
-// ─────────────────────────────────────────────
-
 "use client";
 
 import SectionHeader from "@/components/ui/SectionHeader";

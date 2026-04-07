@@ -1,7 +1,3 @@
-// ─────────────────────────────────────────────
-// components/ui/SectionHeader.tsx
-// ─────────────────────────────────────────────
-
 "use client";
 
 import { itemVariants } from "@/lib/utils";

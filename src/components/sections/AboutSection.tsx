@@ -1,6 +1,4 @@
-// ─────────────────────────────────────────────
-// components/sections/AboutSection.tsx
-// ─────────────────────────────────────────────
+
 
 "use client";
 
@@ -58,29 +56,7 @@ export default function AboutSection() {
                 {personal.aboutLong}
               </motion.p>
 
-              {/* Info grid */}
-              {/* <motion.div
-                variants={containerVariants}
-                className="grid grid-cols-2 gap-3 mb-8"
-              >
-                {highlights.map((item) => (
-                  <motion.div
-                    key={item.label}
-                    variants={itemVariants}
-                    className="flex items-start gap-2"
-                  >
-                    <span className="text-[#FF2D78] mt-1 text-xs">▹</span>
-                    <div>
-                      <span className="text-gray-500 text-xs uppercase tracking-wide font-mono">
-                        {item.label}
-                      </span>
-                      <div className="text-white text-sm font-medium">
-                        {item.value}
-                      </div>
-                    </div>
-                  </motion.div>
-                ))}
-              </motion.div> */}
+            
             </div>
           </div>
         </motion.div>

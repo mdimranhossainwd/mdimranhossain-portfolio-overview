@@ -1,7 +1,3 @@
-// ─────────────────────────────────────────────
-// components/shared/Navbar.tsx
-// ─────────────────────────────────────────────
-
 "use client";
 
 import { navItems, personal } from "@/data/portfolio";
@@ -89,29 +85,6 @@ export default function Navbar() {
               );
             })}
           </nav>
-
-          {/* CTA */}
-          {/* <a
-            href={personal.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden md:inline-flex items-center gap-2 px-5 py-2 text-sm font-medium bg-[#FF2D78] text-white rounded-lg hover:bg-[#FF2D78]/90 active:scale-95 transition-all"
-          >
-            Resume
-            <svg
-              className="w-3 h-3"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-              />
-            </svg>
-          </a> */}
 
           {/* Mobile menu toggle */}
           <button

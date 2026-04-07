@@ -1,13 +1,6 @@
-// ─────────────────────────────────────────────
-// components/ui/GridBackground.tsx
-// ─────────────────────────────────────────────
-
 export default function GridBackground() {
   return (
-    <div
-      className="fixed inset-0 pointer-events-none z-0"
-      aria-hidden="true"
-    >
+    <div className="fixed inset-0 pointer-events-none z-0" aria-hidden="true">
       {/* Dot grid */}
       <div
         className="absolute inset-0 opacity-[0.15]"
