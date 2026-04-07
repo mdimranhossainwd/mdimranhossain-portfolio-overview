@@ -33,7 +33,7 @@ export const projects: Project[] = [
     id: "skillbridge",
     title: "Skillbridge",
     description:
-      "A full-featured e-commerce platform like Daraz and Shopify with user authentication, cart management, and payment integration.",
+      "SkillBridge is a student-centric course management system built as a Personal project. The platform bridges the gap between students looking for tutoring help and skilled tutors who want to teach all under one roof.Students can explore available courses and categories, find the right tutor, book a session, and after the session is complete, leave a review. Meanwhile, tutors manage their own profiles and courses, while Admins have full control over users, bookings, categories, and platform activity.",
     image: "https://i.ibb.co.com/Zpx6Bz0D/Screenshot-2026-04-07-015856.png",
     tags: [
       "Next.js",
