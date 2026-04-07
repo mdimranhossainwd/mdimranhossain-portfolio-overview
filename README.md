@@ -71,18 +71,6 @@ src/data/portfolio.ts
 
 Edit that file — everything else updates automatically.
 
-### Add your profile photo
-
-Replace `public/images/imran.png` with your own photo.
-
-### Add project screenshots
-
-Add images to `public/projects/`:
-
-- `public/projects/swiftshop.png`
-- `public/projects/skillsphere.png`
-- `public/projects/devspotlight.png`
-
 ### Deploy to Vercel
 
 ```bash
@@ -103,4 +91,4 @@ Colors are defined in `tailwind.config.ts`:
 
 ## License
 
-MIT — free to use and modify.
+free to use and modify.

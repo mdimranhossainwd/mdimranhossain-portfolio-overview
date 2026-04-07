@@ -82,7 +82,7 @@ export const projects: Project[] = [
       "A real estate listing platform where hosts/agents can showcase properties, manage bookings, and track revenue",
     image: "https://i.ibb.co.com/fYSp4GPH/Skyline-Home-banner.jpg",
     tags: ["MERN", "React", "MongoDB", "Tailwind", "Express", "Daisy UI"],
-    liveUrl: "https://devspotlight.vercel.app",
+    liveUrl: "https://skyline-vista.web.app/",
     clientCode: "https://github.com/mdimranhossainwd/skyline-vista-client-side",
     serverCode: "https://github.com/mdimranhossainwd/skyline-vista-server-side",
     year: "2025",
