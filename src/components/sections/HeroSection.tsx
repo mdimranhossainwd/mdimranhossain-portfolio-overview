@@ -98,6 +98,8 @@ export default function HeroSection() {
               className="flex flex-wrap gap-3 mb-10"
             >
               <motion.a
+                href="/md_imran_hossain_resume.pdf"
+                download="Md_Imran_Hossain_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex cursor-pointer items-center gap-2 px-6 py-3 bg-[#FF2D78] hover:bg-[#FF2D78]/90 text-white font-medium rounded-lg text-sm active:scale-95 transition-all"
