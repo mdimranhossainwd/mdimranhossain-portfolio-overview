@@ -12,40 +12,6 @@ A modern, dark-themed portfolio built with **Next.js 14**, **TypeScript**, **Tai
 - **Notifications**: Sonner
 - **Type animation**: react-type-animation
 
-## Project Structure
-
-```
-src/
-├── app/
-│   ├── globals.css       # Global styles, design tokens
-│   ├── layout.tsx        # Root layout + metadata
-│   └── page.tsx          # Main page (assembles sections)
-│
-├── components/
-│   ├── sections/         # Page sections (Hero, About, Skills…)
-│   │   ├── HeroSection.tsx
-│   │   ├── AboutSection.tsx
-│   │   ├── SkillsSection.tsx
-│   │   ├── ProjectsSection.tsx
-│   │   ├── TestimonialsSection.tsx
-│   │   └── ContactSection.tsx
-│   ├── shared/           # Layout components
-│   │   ├── Navbar.tsx
-│   │   └── Footer.tsx
-│   └── ui/               # Reusable UI primitives
-│       ├── GridBackground.tsx
-│       └── SectionHeader.tsx
-│
-├── data/
-│   └── portfolio.ts      # ✅ EDIT THIS — all content lives here
-│
-├── lib/
-│   └── utils.ts          # cn(), animation variants, helpers
-│
-└── types/
-    └── index.ts          # TypeScript interfaces
-```
-
 ## Getting Started
 
 ```bash
