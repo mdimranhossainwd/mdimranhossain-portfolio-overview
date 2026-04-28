@@ -1,4 +1,4 @@
-# Md. Imran Hossain — Portfolio
+# Md. Imran Hossain Portfolio
 
 A modern, dark-themed portfolio built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
 
